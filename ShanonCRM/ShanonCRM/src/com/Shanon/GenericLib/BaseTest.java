@@ -18,6 +18,7 @@ public class BaseTest implements IAutoConsts{
 	{
 		FileLib flib=new FileLib();
 		String browserName = flib.readPropertyData(PROP_PATH, "browser");
+		//Chome is selected or Displayed
 		if(browserName.equalsIgnoreCase("chrome"))
 		{
 			System.setProperty(CHROME_KEY, CHROME_VALUE);
