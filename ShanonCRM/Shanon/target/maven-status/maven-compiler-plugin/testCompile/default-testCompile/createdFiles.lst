@@ -1,0 +1,4 @@
+com\Shanon\accounts\VerifyAccountsCreation.class
+com\Shanon\Leads\VerifyLeadCreation.class
+com\Shanon\login\ValidLogin.class
+com\Shanon\Leads\VerifyLeads.class

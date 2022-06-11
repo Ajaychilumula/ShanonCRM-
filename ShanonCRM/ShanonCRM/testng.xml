@@ -1,0 +1,8 @@
+<suite name="Suite">
+  <test name="ShanonTest">
+    <classes>
+      <class name="com.Shanon.Leads.VerifyLeadCreation"/>
+      <class name="com.Shanon.Leads.VerifyLeads"/>
+    </classes>
+  </test> 
+</suite>

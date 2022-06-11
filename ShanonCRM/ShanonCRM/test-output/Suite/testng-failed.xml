@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="ShanonTest(failed)">
+    <classes>
+      <class name="com.Shanon.Leads.VerifyLeadCreation">
+        <methods>
+          <include name="createNewLeadTest"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- com.Shanon.Leads.VerifyLeadCreation -->
+    </classes>
+  </test> <!-- ShanonTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

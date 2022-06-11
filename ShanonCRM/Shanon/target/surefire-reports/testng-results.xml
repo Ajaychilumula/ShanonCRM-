@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[LOGIN PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[CRM HOME PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[LEADS TEXT is Displayed, PASS]]>
+    </line>
+    <line>
+      <![CDATA[CREATE LEAD PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[LOGIN PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[CRM HOME PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[LOGIN PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[CRM HOME PAGE is Displayed]]>
+    </line>
+    <line>
+      <![CDATA[LEADS TEXT is Displayed, PASS]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-05-27T13:08:52 IST" name="Suite" finished-at="2022-05-27T13:09:38 IST" duration-ms="45945">
+    <groups>
+    </groups>
+    <test started-at="2022-05-27T13:08:52 IST" name="RaghavTest" finished-at="2022-05-27T13:09:38 IST" duration-ms="45945">
+      <class name="com.Shanon.Leads.VerifyLeads">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Shanon.Leads.VerifyLeads@28f2a10f]" started-at="2022-05-27T13:09:34 IST" name="openBrowser" finished-at="2022-05-27T13:09:36 IST" duration-ms="2165" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LOGIN PAGE is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyLeadsTabTest()[pri:0, instance:com.Shanon.Leads.VerifyLeads@28f2a10f]" started-at="2022-05-27T13:09:36 IST" name="verifyLeadsTabTest" finished-at="2022-05-27T13:09:38 IST" duration-ms="1970" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CRM HOME PAGE is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[LEADS TEXT is Displayed, PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLeadsTabTest -->
+      </class> <!-- com.Shanon.Leads.VerifyLeads -->
+      <class name="com.Shanon.accounts.VerifyAccountsCreation">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Shanon.accounts.VerifyAccountsCreation@47faa49c]" started-at="2022-05-27T13:09:27 IST" name="openBrowser" finished-at="2022-05-27T13:09:29 IST" duration-ms="2061" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LOGIN PAGE is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="createAccountTest()[pri:0, instance:com.Shanon.accounts.VerifyAccountsCreation@47faa49c]" started-at="2022-05-27T13:09:29 IST" name="createAccountTest" finished-at="2022-05-27T13:09:34 IST" duration-ms="4931" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CRM HOME PAGE is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+      </class> <!-- com.Shanon.accounts.VerifyAccountsCreation -->
+      <class name="com.Shanon.Leads.VerifyLeadCreation">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.Shanon.Leads.VerifyLeadCreation@4d465b11]" started-at="2022-05-27T13:08:52 IST" name="openBrowser" finished-at="2022-05-27T13:09:07 IST" duration-ms="14570" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LOGIN PAGE is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="createNewLeadTest()[pri:0, instance:com.Shanon.Leads.VerifyLeadCreation@4d465b11]" started-at="2022-05-27T13:09:07 IST" name="createNewLeadTest" finished-at="2022-05-27T13:09:27 IST" duration-ms="19973" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[CRM HOME PAGE is Displayed]]>
+            </line>
+            <line>
+              <![CDATA[LEADS TEXT is Displayed, PASS]]>
+            </line>
+            <line>
+              <![CDATA[CREATE LEAD PAGE is Displayed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createNewLeadTest -->
+      </class> <!-- com.Shanon.Leads.VerifyLeadCreation -->
+    </test> <!-- RaghavTest -->
+  </suite> <!-- Suite -->
+</testng-results>

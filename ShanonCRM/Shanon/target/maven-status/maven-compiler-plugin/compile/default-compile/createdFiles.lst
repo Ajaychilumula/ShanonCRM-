@@ -1,0 +1,12 @@
+com\Shanon\GenericLib\BaseTest.class
+com\Shanon\GenericLib\CustomReports.class
+com\Shanon\pages\SignInPage.class
+com\Shanon\pages\HomePage.class
+com\Shanon\pages\CreateAccountsPage.class
+com\Shanon\pages\LeadCustomViewPage.class
+com\Shanon\GenericLib\IAutoConsts.class
+com\Shanon\pages\AccountsCustomViewPage.class
+com\Shanon\pages\CreateLeadPage.class
+com\Shanon\GenericLib\FileLib.class
+com\Shanon\GenericLib\MyListeners.class
+com\Shanon\GenericLib\WebdriverCommonLib.class
