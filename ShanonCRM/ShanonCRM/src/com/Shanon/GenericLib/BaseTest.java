@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-
+//Bast Test will be stated
 public class BaseTest implements IAutoConsts{
 
 	public static WebDriver driver;
